@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пути Honkai: Star Rail — Лор"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Охоты"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Охоты — это путь прицельного разрушения, индивидуальной силы и непреклонной воли. Носители этого пути — искусные охотники, способные разить одиночные цели с хирургической точностью."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Лань."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Разрушения"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Разрушения олицетворяет разрушительную силу и хаос, присущий самой природе бытия. Носители этого пути черпают мощь из собственного тела, нередко жертвуя здоровьем ради сокрушительного урона."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Нанук"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Эрудиции"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Эрудиции символизирует вечное стремление к знаниям и интеллектуальному совершенству. Носители этого пути наносят урон сразу по всем врагам, используя достижения науки, магии и чистого разума."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Нус"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Гармонии"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Гармонии — это путь сотрудничества, единства и взаимной поддержки. Носители этого пути усиливают союзников, синхронизируют их действия и раскрывают полный потенциал команды в бою."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Шипе"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Небытия"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Небытия воплощает яд, деградацию и неизбежное угасание всего сущего. Носители этого пути ослабляют врагов дебаффами и медленно изничтожают их, нанося урон со временем — каждая секунда превращается в пытку."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: IX."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Изобилия"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Изобилия сосредоточен на исцелении, жизненной силе и восстановлении. Носители этого пути — целители команды: они восстанавливают HP союзников, продлевают их боеспособность и обеспечивают долговечность группы в самых тяжёлых сражениях."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Яоши."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Сохранения"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Путь Сохранения воплощает защиту, стойкость и непоколебимую защиту союзников. Носители этого пути — настоящие стражи команды: они поглощают урон вместо союзников, создают щиты и обеспечивают выживание группы любой ценой."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровитель пути: Клипот."
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ваш любимый персонаж:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <EditText
+                android:id="@+id/userInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите имя персонажа..."
+                android:inputType="textPersonName"
+                android:padding="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

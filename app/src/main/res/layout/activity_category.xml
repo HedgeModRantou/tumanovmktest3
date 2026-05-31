@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pathTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Путь"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <ListView
+        android:id="@+id/characterListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/addDeleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/newCharacterInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите имя нового персонажа"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Добавить"
+                android:layout_margin="4dp"
+                android:onClick="addCharacter" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Удалить отмеченных"
+                android:layout_margin="4dp"
+                android:onClick="removeCharacters" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
