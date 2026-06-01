@@ -19,12 +19,11 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".SecondActivity" />
+
         <activity android:name=".CategoryActivity" />
-
         <activity android:name=".RecyclerActivity" />
-
         <activity android:name=".ScrollActivity" />
-
         <activity android:name=".SpinnerActivity" />
 
     </application>

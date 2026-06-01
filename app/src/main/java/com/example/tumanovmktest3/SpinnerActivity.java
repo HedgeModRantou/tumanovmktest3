@@ -1,11 +1,14 @@
 package com.example.tumanovmktest3;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SpinnerActivity extends AppCompatActivity {
@@ -43,6 +46,12 @@ public class SpinnerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner);
 
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Выбор пути");
+        }
+
         Spinner spinner = findViewById(R.id.pathSpinner);
         TextView descriptionView = findViewById(R.id.pathDescription);
         TextView selectedPathView = findViewById(R.id.selectedPath);
@@ -65,5 +74,14 @@ public class SpinnerActivity extends AppCompatActivity {
                 descriptionView.setText("");
             }
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
