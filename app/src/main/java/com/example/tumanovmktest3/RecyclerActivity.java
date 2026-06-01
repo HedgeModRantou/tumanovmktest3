@@ -44,13 +44,13 @@ public class RecyclerActivity extends AppCompatActivity {
     private List<CharacterModel> buildCharacterList() {
         List<CharacterModel> list = new ArrayList<>();
 
-        int huntColor        = Color.parseColor("#4CAF50"); // зелёный — Охота
-        int destructionColor = Color.parseColor("#F44336"); // красный — Уничтожение
-        int eruditionColor   = Color.parseColor("#2196F3"); // синий — Эрудиция
-        int harmonyColor     = Color.parseColor("#FFC107"); // жёлтый — Гармония
-        int nihilityColor    = Color.parseColor("#9C27B0"); // фиолетовый — Нигилизм
-        int abundanceColor   = Color.parseColor("#009688"); // бирюзовый — Изобилие
-        int preservationColor= Color.parseColor("#FF9800"); // оранжевый — Сохранение
+        int huntColor        = Color.parseColor("#4CAF50");
+        int destructionColor = Color.parseColor("#F44336");
+        int eruditionColor   = Color.parseColor("#2196F3");
+        int harmonyColor     = Color.parseColor("#FFC107");
+        int nihilityColor    = Color.parseColor("#9C27B0");
+        int abundanceColor   = Color.parseColor("#009688");
+        int preservationColor= Color.parseColor("#FF9800");
 
         list.add(new CharacterModel("Дань Хэн",               "Охота",         huntColor));
         list.add(new CharacterModel("Зеле",                    "Охота",         huntColor));

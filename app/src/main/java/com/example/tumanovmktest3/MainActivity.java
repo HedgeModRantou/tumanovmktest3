@@ -23,14 +23,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Настраиваем ActionBar
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setTitle("Персонажи");
         }
 
-        // Настраиваем DrawerLayout и Toggle
         drawer = findViewById(R.id.drawer_layout);
         toggle = new ActionBarDrawerToggle(
                 this, drawer,
@@ -41,10 +39,8 @@ public class MainActivity extends AppCompatActivity {
         }
         toggle.syncState();
 
-        // Загружаем фрагмент по умолчанию
         loadFragment(new CharactersFragment());
 
-        // Настраиваем NavigationView
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override

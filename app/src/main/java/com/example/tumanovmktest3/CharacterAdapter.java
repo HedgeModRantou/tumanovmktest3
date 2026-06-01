@@ -32,7 +32,6 @@ public class CharacterAdapter extends RecyclerView.Adapter<CharacterAdapter.View
         holder.nameTextView.setText(character.getName());
         holder.pathTextView.setText("Путь: " + character.getPath());
 
-        // Программно создаём цветной круг как иконку пути
         GradientDrawable drawable = new GradientDrawable();
         drawable.setShape(GradientDrawable.OVAL);
         drawable.setColor(character.getColor());
